@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Over ☹</title>
+    <link rel="stylesheet" href="gameOverStyleSheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Protest+Riot&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>🕵️‍♂️ Game Over ☹</h1>
+    <p><span></span></span></p>
+    <div class="return">
+        <a href="index.html">Rejouer</a>
+    </div>
+   
+    <script>
+        window.onload = function() {
+            
+            let span = document.querySelector('span');
+            span.innerHTML = localStorage.getItem('spanContent');
+        }
+
+    </script>
+</body>
+</html>

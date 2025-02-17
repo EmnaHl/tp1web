@@ -1,0 +1,61 @@
+
+body {
+    margin : 200px;
+
+}
+
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 300%;
+    color: #7E5D42;
+    text-align: center;
+}
+
+p {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 20px;
+    color: #C18A63;
+    text-align: center;
+
+}
+
+span {
+    /* only a bottom border */
+    border-bottom: 2px solid #C18A63;
+}
+
+.btn {
+    font-family: 'Carter One', system-ui;
+    font-weight: bold;
+    font-size: 20px;
+    color: #30211C;
+    background-color: #C18A63;
+    border: solid 2px #30211C;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #30211C;
+    color: #C18A63;
+    border: solid 2px #C18A63;
+}
+
+.input {
+    text-align: center;
+}
+
+#inputBox {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 20px;
+    color: #30211C;
+    background-color: #C18A63;
+    border: solid 2px #30211C;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+

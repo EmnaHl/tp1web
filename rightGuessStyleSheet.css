@@ -1,0 +1,37 @@
+
+
+h1 {
+    margin-top:3%;
+    margin-left: 25%;
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Poor Story', system-ui;
+}
+
+p {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 13%;
+    color:black;
+    font-size: 18px;
+    font-family: 'Poor Story', system-ui;
+}
+
+a {
+    margin-left: ;
+    color: lightgray;
+    font-size: 20px;
+    font-family: 'Poor Story', system-ui;
+    text-decoration: none;
+    background: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px lightgray;
+}
+
+a:hover {
+    background: lightgray;
+    color: black;
+    border: solid 2px black;
+}

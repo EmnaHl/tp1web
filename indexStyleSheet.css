@@ -1,0 +1,50 @@
+
+
+h1 {
+    font-family: "Ruslan Display", sans-serif;
+    font-size: 300%;
+    color: #9b2121;
+    text-align: center;
+    margin-top : 2.5%;
+}
+
+form {
+    text-align: center;
+    font-family: "Henny Penny", system-ui;
+    font-size: 40px;
+    color: #192848;
+    margin-top : 10%;
+}
+
+select {
+    font-family: "Henny Penny", system-ui;
+    font-size: 20px;
+    color: #9b2121;
+    background-color: #f2f2f2;
+    border: 2px solid #9b2121;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+option {
+    border: 2px solid #9b2121;
+    border-radius: 10px;
+}
+
+input {
+    font-family: "Henny Penny", system-ui;
+    font-size: 20px;
+    color: #9b2121;
+    background-color: #f2f2f2;
+    border: 2px solid #9b2121;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+input:hover {
+    background-color: #9b2121;
+    color: rgb(7, 0, 0);
+    border: 2px solid #f2f2f2;
+}
