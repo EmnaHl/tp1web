@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Set difficulty level</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Ruslan+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahianita&family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexStyleSheet.css">
+</head>
+<body>
+    <h1>🧨 Testez vos limites ! 🧨</h1>
+    <form action="game.html" method="get">
+        <label for="difficulty" id="label">Choisissez un niveau de difficulté :</label>
+        <select name="difficulty" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <input type="submit" value="Start Game">
+    </form>
+    <script>
+        let form = document.querySelector('form');
+        form.addEventListener('submit', function(event) {
+            let difficulty = document.querySelector('select').value;
+            localStorage.setItem('difficulty', difficulty);
+            console.log(localStorage.getItem('difficulty'));
+        });
+    </script>
+    <script src="chiffre_cache.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 300%;
+    color: black;
+    text-align: center;
+    margin-top : 2.5%;
+}
+
+p {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top : 32%;
+}
+
+.return {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 75%;
+}
+
+a {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: #D6B50F;
+    background: black;
+    /* delete the underline */
+    text-decoration: none;
+    border : 2px solid #605E1E;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+a:hover {
+    background-color: #605E1E;
+    color: black;
+    border: solid 2px black;
+}

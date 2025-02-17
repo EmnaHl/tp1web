@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Right Guess 🥳</title>
+    <link rel="stylesheet" href="rightGuessStyleSheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <h1>Vous l'avez devinez !!
+        <br>
+        🥳 Félicitations 🥳
+    </h1>
+    <p></p>
+    <a href="index.html">Play Again</a>
+    <script src = "chiffre_cache.js"></script>
+    <script>
+        window.onload = function() {
+            let parag = document.querySelector('p');
+            parag.innerHTML = localStorage.getItem('paragContent');
+        }
+
+    </script>
+</body>
+</html>

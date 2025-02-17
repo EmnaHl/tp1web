@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Word</title>
+    <link rel="stylesheet" href="indexStyleSheet.css">
+</head>
+<body>
+    <h1>Welcome to Mini Word</h1>
+    <p>Write your text here :</p>
+    <textarea id="text" class="textarea" ></textarea>
+    <br>
+    <label for="color">
+        Choose your text color
+    </label>
+    <input type="color"  id="color">
+    <label for="size">Choose your text size</label>
+    <input type="number"  id="size" min="10" max="100">
+    <label for="font">Choose your text font</label>
+    <select name="font" id="font">
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+    </select>
+    <script src="index.js"></script>
+</body>
+</html>
